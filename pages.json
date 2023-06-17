@@ -1,0 +1,115 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		}, {
+			"path": "pages/home/index",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/video/index",
+			"style": {
+				"navigationBarTitleText": "视频",
+				"enablePullDownRefresh": false
+			}
+		}
+        ,{
+            "path" : "pages/logonLoginPage/Login",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/logonLoginPage/Logon",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/home/updatePwd",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "修改密码",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#FF0000",
+				"navigationBarTextStyle": "white"
+            }   
+        }
+        ,{
+            "path" : "pages/home/detailedPage/fanFollowPage",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "关注/粉丝",
+				"navigationBarBackgroundColor": "#FF0000",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white"
+            }
+            
+        }
+        ,{
+            "path" : "pages/home/detailedPage/commentFavoriteFootprintPage",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "关注/粉丝",
+				"navigationBarBackgroundColor": "#FF0000",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white"
+            }
+            
+        }
+        ,{
+            "path" : "pages/detailedPage/detailedPage",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationBarTitleText": "正文",
+				"navigationBarBackgroundColor": "#FF0000",
+				"navigationBarTextStyle": "white"
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#3cc51f",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/images/tabImg/shouye.png",
+			"selectedIconPath": "static/images/tabImg/shouye1.png",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/video/index",
+			"iconPath": "static/images/tabImg/shiping.png",
+			"selectedIconPath": "static/images/tabImg/shiping1.png",
+			"text": "视频"
+		}, {
+			"pagePath": "pages/home/index",
+			"iconPath": "static/images/tabImg/wode.png",
+			"selectedIconPath": "static/images/tabImg/wode1.png",
+			"text": "我的"
+		}]
+	}
+}
